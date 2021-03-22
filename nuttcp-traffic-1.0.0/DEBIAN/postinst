@@ -14,7 +14,7 @@ echo "View the readme in /home/nuttcp"
 echo
 echo "Start the services"
 echo "\tsystemctl start nuttcp.socket"
-echo "\tsystemctl start nuttcp_server@.service"
+echo "\tDO NOT START nuttcp_server@.service"
 echo "\tsystemctl start nuttcp_client.service"
 
 exit 0

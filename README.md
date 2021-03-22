@@ -38,7 +38,7 @@ Edit /home/nuttcp/send_traffic.sh to your liking.
 Start the services:
 
 - systemctl start nuttcp.socket
-- systemctl start nuttcp_server@.service
+- DO NOT START nuttcp_server@.service
 - systemctl start nuttcp_client.service
 
 
