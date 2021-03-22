@@ -1,0 +1,12 @@
+[Unit]
+Description=Network Performance Testing Server
+After=network.target
+
+[Service]
+User=nuttcp
+ExecStart=/usr/bin/nuttcp -S
+StandardInput=socket
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,13 @@
+[Unit]
+Description=NUTTCP Traffic Service Client
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=nuttcp
+ExecStart=/home/nuttcp/nuttcp_client_service.sh
+
+[Install]
+WantedBy=multi-user.target
