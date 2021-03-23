@@ -1,0 +1,6 @@
+Package: nuttcp-traffic
+Version: 1.0.0
+Priority: optional
+Architecture: amd64 
+Maintainer: unknown <marshall@theonsruds.com>
+Description: Systemd services for nuttcp client and server

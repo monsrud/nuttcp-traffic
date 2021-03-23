@@ -30,7 +30,7 @@ After you finish installing the .deb, you need to enable and start the following
 Enable the services:
 
 - systemctl enable nuttcp.socket
-- systemctl enable nuttcp_server@.service
+- systemctl enable nuttcp@.service
 - systemctl enable nuttcp_client.service
 
 Edit /home/nuttcp/send_traffic.sh to your liking.
@@ -38,7 +38,7 @@ Edit /home/nuttcp/send_traffic.sh to your liking.
 Start the services:
 
 - systemctl start nuttcp.socket
-- DO NOT START nuttcp_server@.service
+- DO NOT START nuttcp@.service
 - systemctl start nuttcp_client.service
 
 
