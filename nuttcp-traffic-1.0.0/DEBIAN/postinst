@@ -7,14 +7,14 @@ set -e
 echo "To finish installing, you need to enable and start the following services"
 echo
 echo "\tsystemctl enable nuttcp.socket"
-echo "\tsystemctl enable nuttcp_server@.service"
+echo "\tsystemctl enable nuttcp@.service"
 echo "\tsystemctl enable nuttcp_client.service"
 echo
 echo "View the readme in /home/nuttcp"
 echo
 echo "Start the services"
 echo "\tsystemctl start nuttcp.socket"
-echo "\tDO NOT START nuttcp_server@.service"
+echo "\tDO NOT START nuttcp@.service"
 echo "\tsystemctl start nuttcp_client.service"
 
 exit 0
